@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "dependencies": {
+    "@bufbuild/connect": "^0.13.0",
+    "@bufbuild/connect-fastify": "^0.13.0",
+    "@bufbuild/protobuf": "^1.10.1",
+    "fastify": "^5.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
