@@ -1,0 +1,26 @@
+{
+  "name": "gRPC Web API Example",
+  "dockerComposeFile": ["../compose.yaml"],
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "initializeCommand": "mkdir -p ./node_modules",
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bufbuild.vscode-buf",
+        "mhutchie.git-graph",
+        "github.vscode-github-actions",
+        "redhat.vscode-yaml"
+      ],
+      "settings": {
+        "files.autoSave": "off",
+        "editor.detectIndentation": true,
+        "editor.insertSpaces": true,
+        "editor.indentSize": "tabSize",
+        "editor.tabSize": 2
+      }
+    }
+  }
+}
