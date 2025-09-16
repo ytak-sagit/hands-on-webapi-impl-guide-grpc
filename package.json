@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "server": "tsx src/server.ts",
-    "curl": "buf curl --protocol grpc --http2-prior-knowledge --schema ./proto"
+    "curl": "buf curl --protocol grpc --http2-prior-knowledge --schema ./proto",
+    "client": "tsx src/client.ts"
   },
   "dependencies": {
     "@bufbuild/connect": "^0.9.0",
