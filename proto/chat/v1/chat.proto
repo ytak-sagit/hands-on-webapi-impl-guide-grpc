@@ -5,7 +5,7 @@ package chat.v1;
 import "google/protobuf/timestamp.proto";
 
 service ChatService {
-  rpc Say(SayRequest) returns (SayResponse);
+  rpc say(SayRequest) returns (SayResponse);
 }
 
 message SayRequest {
@@ -14,5 +14,4 @@ message SayRequest {
 
 message SayResponse {
   string sentence = 1;
-  google.protobuf.Timestamp responded_at = 2;
 }
