@@ -14,5 +14,4 @@ message SayRequest {
 
 message SayResponse {
   string sentence = 1;
-  google.protobuf.Timestamp responded_at = 2;
 }
