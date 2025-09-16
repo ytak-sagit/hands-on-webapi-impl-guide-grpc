@@ -1,6 +1,9 @@
 {
   "name": "example-grpc-webapi",
   "private": true,
+  "scripts": {
+    "server": "tsx src/server.ts"
+  },
   "dependencies": {
     "@bufbuild/connect": "^0.9.0",
     "@bufbuild/connect-fastify": "^0.9.0",
