@@ -1,0 +1,13 @@
+name: Protocol Buffers Lint
+on: pull_request
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: bufbuild/buf-setup-action@v1
+        with:
+          version: "1.57.0"
+      - uses: bufbuild/buf-lint-action@v1
+        with:
+          input: proto
